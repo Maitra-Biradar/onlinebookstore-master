@@ -9,6 +9,7 @@ public class Book implements Serializable {
     private String author;
     private double price;
     private int quantity;
+    private int size;
 
     public Book(String barcode, String name, String author, double price, int quantity) {
         this.barcode = barcode;
